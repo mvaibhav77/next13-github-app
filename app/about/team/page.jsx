@@ -3,7 +3,7 @@ import React from "react";
 const TeamPage = () => {
   return (
     <div>
-      <h1>Team</h1>
+      <h1 className="text-3xl my-4">Team</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
         molestias, ad iure quam soluta ea sunt labore ipsam omnis tenetur hic

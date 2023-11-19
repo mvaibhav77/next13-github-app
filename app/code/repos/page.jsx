@@ -21,7 +21,7 @@ const ReposPage = async () => {
 
   return (
     <div className="repos-container">
-      <h2>Repositories</h2>
+      <h2 className="text-lg font-bold">Repositories</h2>
       <ul className="repo-list">
         {repos.map((repo) => (
           <li key={repo.id}>
